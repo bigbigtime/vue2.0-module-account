@@ -33,7 +33,7 @@
 
 <script>
 // 验证
-import { validatePass } from "@/utils/validate";
+import { validatePass } from "../../utils/validate";
 export default {
     name: 'Password',
     props: {
@@ -144,6 +144,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import "../../styles/index";
 .field-right-inner {
     position: absolute;
     right: 0;

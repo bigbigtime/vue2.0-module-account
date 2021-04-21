@@ -21,7 +21,7 @@ import Pagename from "./components/PageTitle";
 import UsernameTypeTag from "../../components/form/UsernameType";
 
 export default {
-    name: "Login",
+    name: "Forget",
     components: { Navbar, Pagename, UsernameTypeTag, Username, Code, Password, Passwords, SubmitButton }
 }
 </script>

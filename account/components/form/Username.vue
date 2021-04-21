@@ -9,7 +9,7 @@
 
 <script>
 // 验证
-import { validatePhone, validateEmail } from "@/utils/validate";
+import { validatePhone, validateEmail } from "../../utils/validate";
 export default {
     name: 'Username',
     props: {
@@ -80,4 +80,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import "../../styles/index";
 </style>
